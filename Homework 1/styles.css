@@ -1,0 +1,122 @@
+body {
+    font-family: Helvetica, sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20pt;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+#input-row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input {
+    height: 37.5px;
+    width: 96%;
+    padding: 0 10px;
+    border: 1.25px solid #bdbdbd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #008cff;
+    box-shadow: 0 0 8px #009dff70;
+}
+
+#input-row input {
+    width: 43%;
+}
+
+#agreement {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+#agree-checkbox input {
+    height: 15px;
+    width: 15px;
+    border: 1px solid #000000;
+    border-radius: 0;
+    padding: 0;
+}
+
+#agree-checkbox label {
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+#agree-text {
+    margin: 0;
+    width: 75%;
+    font-size: 12pt;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+}
+
+#btn-text {
+    background-color: #3f84ce;
+    color: #fff;
+    font-size: 10pt;
+    font-weight: bold;
+    padding: 2px 5px;
+    border-radius: 2.5px;
+}
+
+#terms-link {
+    text-decoration: none;
+    color: #0095ff;
+}
+
+#input-row button {
+    width: 47.5%;
+    height: 40px;
+    border-style: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+#register-btn {
+    background-color: #3f84ce;
+}
+
+#sign-btn {
+    background-color: #28a745;
+}
+
+@media only screen and (max-width: 520px) {
+    body {
+        margin: 0 10%;
+    }
+
+    input {
+        width: 93%;
+    }
+
+    #input-row input {
+        width: 40%;
+    }
+
+    #agree-text {
+        width: 70%;
+    }
+}
