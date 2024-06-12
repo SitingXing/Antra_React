@@ -16,7 +16,7 @@ body {
     margin-top: 0;
 }
 
-#input-row {
+.input-row {
     display: flex;
     width: 100%;
     align-items: center;
@@ -38,7 +38,7 @@ input:focus {
     box-shadow: 0 0 8px #009dff70;
 }
 
-#input-row input {
+.input-row input {
     width: 43%;
 }
 
@@ -85,7 +85,7 @@ input:focus {
     color: #0095ff;
 }
 
-#input-row button {
+.input-row button {
     width: 47.5%;
     height: 40px;
     border-style: none;
@@ -112,7 +112,7 @@ input:focus {
         width: 93%;
     }
 
-    #input-row input {
+    .input-row input {
         width: 40%;
     }
 
